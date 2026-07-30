@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nedus-gadget.vercel.app/sitemap.xml
