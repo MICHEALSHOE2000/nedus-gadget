@@ -72,16 +72,16 @@ p, h1, h2, h3 { margin-top: 0; }
 .nav { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; flex: 0 0 auto; }
 .brand-mark {
-  width: 156px;
-  height: 58px;
-  padding: 3px 5px;
+  width: 180px;
+  height: 66px;
+  padding: 3px 7px;
   display: grid;
   place-items: center;
   overflow: hidden;
-  border: 1px solid rgba(16, 9, 56, .12);
+  border: 1px solid rgba(16, 72, 205, .16);
   border-radius: 12px;
-  background: #080808;
-  box-shadow: 0 10px 26px rgba(16, 9, 56, .14);
+  background: #fff;
+  box-shadow: 0 10px 26px rgba(16, 72, 205, .13);
 }
 .brand-mark img {
   width: 100%;
