@@ -161,7 +161,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Classic Max",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-xs-max.jpg",
     description: "A large-screen classic iPhone with a premium stainless-steel design."
   },
   {
@@ -170,7 +170,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Classic",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-xs.jpg",
     description: "A compact premium classic for everyday Apple essentials."
   },
   {
@@ -179,7 +179,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Popular",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-xr.jpg",
     description: "A colourful, practical iPhone option with a roomy display."
   },
   {
@@ -188,7 +188,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Classic",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-x.png",
     description: "The classic all-screen iPhone design for essential daily use."
   },
   {
@@ -197,7 +197,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Plus",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-8-plus.png",
     description: "A larger classic iPhone with a familiar home-button experience."
   },
   {
@@ -206,7 +206,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Compact",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-8.png",
     description: "A compact glass-back iPhone for calls, apps and daily essentials."
   },
   {
@@ -215,7 +215,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Plus",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-7-plus.png",
     description: "A large classic iPhone option with a dual-camera design."
   },
   {
@@ -224,7 +224,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Classic",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-7.png",
     description: "A familiar compact iPhone for basic everyday use."
   },
   {
@@ -233,7 +233,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Plus",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-6s-plus.png",
     description: "A larger home-button iPhone for simple daily tasks."
   },
   {
@@ -242,7 +242,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Classic",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-6s.png",
     description: "A compact classic iPhone for calls and essential applications."
   },
   {
@@ -251,7 +251,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Plus",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-6-plus.png",
     description: "A large-screen early-generation iPhone for basic use."
   },
   {
@@ -260,7 +260,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "Classic",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-6.png",
     description: "An early-generation compact iPhone offered subject to availability."
   },
   {
@@ -269,7 +269,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "SE",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-se-3.png",
     description: "A compact home-button iPhone with newer-generation performance."
   },
   {
@@ -278,7 +278,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "SE",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-se-2.png",
     description: "A compact and familiar iPhone design for practical everyday use."
   },
   {
@@ -287,7 +287,7 @@ const products = [
     brand: "Apple",
     collection: "iPhone",
     tag: "SE",
-    image: "images/iphone-classic-range.svg",
+    image: "images/classic/iphone-se-1.png",
     description: "The original compact SE model, available subject to current stock."
   },
   {
@@ -547,7 +547,7 @@ function productCard(product) {
   return `
     <article class="product-card" data-product-id="${product.id}" tabindex="0" role="button" aria-label="View ${product.name} details">
       <div class="product-media">
-        <img src="${product.image}" alt="${product.name} available from Nedu's Gadgets" loading="lazy">
+        <img class="${product.image.includes("images/classic/") ? "product-image-contain" : ""}" src="${product.image}" alt="${product.name} available from Nedu's Gadgets" loading="lazy">
         <span class="product-tag">${product.tag}</span>
       </div>
       <div class="product-body">
