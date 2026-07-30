@@ -156,6 +156,141 @@ const products = [
     description: "A practical and recognisable iPhone for everyday essentials."
   },
   {
+    id: "iphone-xs-max",
+    name: "iPhone XS Max",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Classic Max",
+    image: "images/iphone-classic-range.svg",
+    description: "A large-screen classic iPhone with a premium stainless-steel design."
+  },
+  {
+    id: "iphone-xs",
+    name: "iPhone XS",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Classic",
+    image: "images/iphone-classic-range.svg",
+    description: "A compact premium classic for everyday Apple essentials."
+  },
+  {
+    id: "iphone-xr",
+    name: "iPhone XR",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Popular",
+    image: "images/iphone-classic-range.svg",
+    description: "A colourful, practical iPhone option with a roomy display."
+  },
+  {
+    id: "iphone-x",
+    name: "iPhone X",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Classic",
+    image: "images/iphone-classic-range.svg",
+    description: "The classic all-screen iPhone design for essential daily use."
+  },
+  {
+    id: "iphone-8-plus",
+    name: "iPhone 8 Plus",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Plus",
+    image: "images/iphone-classic-range.svg",
+    description: "A larger classic iPhone with a familiar home-button experience."
+  },
+  {
+    id: "iphone-8",
+    name: "iPhone 8",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Compact",
+    image: "images/iphone-classic-range.svg",
+    description: "A compact glass-back iPhone for calls, apps and daily essentials."
+  },
+  {
+    id: "iphone-7-plus",
+    name: "iPhone 7 Plus",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Plus",
+    image: "images/iphone-classic-range.svg",
+    description: "A large classic iPhone option with a dual-camera design."
+  },
+  {
+    id: "iphone-7",
+    name: "iPhone 7",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Classic",
+    image: "images/iphone-classic-range.svg",
+    description: "A familiar compact iPhone for basic everyday use."
+  },
+  {
+    id: "iphone-6s-plus",
+    name: "iPhone 6s Plus",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Plus",
+    image: "images/iphone-classic-range.svg",
+    description: "A larger home-button iPhone for simple daily tasks."
+  },
+  {
+    id: "iphone-6s",
+    name: "iPhone 6s",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Classic",
+    image: "images/iphone-classic-range.svg",
+    description: "A compact classic iPhone for calls and essential applications."
+  },
+  {
+    id: "iphone-6-plus",
+    name: "iPhone 6 Plus",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Plus",
+    image: "images/iphone-classic-range.svg",
+    description: "A large-screen early-generation iPhone for basic use."
+  },
+  {
+    id: "iphone-6",
+    name: "iPhone 6",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "Classic",
+    image: "images/iphone-classic-range.svg",
+    description: "An early-generation compact iPhone offered subject to availability."
+  },
+  {
+    id: "iphone-se-3rd-generation",
+    name: "iPhone SE (3rd Generation)",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "SE",
+    image: "images/iphone-classic-range.svg",
+    description: "A compact home-button iPhone with newer-generation performance."
+  },
+  {
+    id: "iphone-se-2nd-generation",
+    name: "iPhone SE (2nd Generation)",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "SE",
+    image: "images/iphone-classic-range.svg",
+    description: "A compact and familiar iPhone design for practical everyday use."
+  },
+  {
+    id: "iphone-se-1st-generation",
+    name: "iPhone SE (1st Generation)",
+    brand: "Apple",
+    collection: "iPhone",
+    tag: "SE",
+    image: "images/iphone-classic-range.svg",
+    description: "The original compact SE model, available subject to current stock."
+  },
+  {
     id: "samsung-z-fold-7",
     name: "Galaxy Z Fold 7",
     brand: "Samsung",
