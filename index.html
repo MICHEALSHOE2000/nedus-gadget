@@ -16,6 +16,35 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
+<style>
+/* iPhone 18 homepage campaign */
+.iphone18-banner { position: relative; isolation: isolate; overflow: hidden; margin-top: 28px; min-height: 550px; border-radius: 30px; color: #fff; background: #0d0a0b; }
+.iphone18-art { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: right center; }
+.iphone18-banner::after { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg,rgba(10,8,10,.94) 0%,rgba(10,8,10,.8) 32%,rgba(10,8,10,.18) 62%,transparent 80%); }
+.iphone18-copy { position: relative; max-width: 58%; padding: clamp(36px,5vw,72px); }
+.iphone18-eyebrow { margin-bottom: 24px; color: #f3caaf; font-size: .7rem; font-weight: 700; letter-spacing: .22em; }
+.iphone18-copy h2 { margin-bottom: 24px; font-family: var(--font-display); font-size: clamp(2.8rem,4.9vw,4.8rem); letter-spacing: -.055em; line-height: 1.05; }
+.iphone18-copy h2 span { color: #e9bbac; }
+.iphone18-description { max-width: 380px; margin-bottom: 28px; color: #e0d5d6; font-size: .96rem; }
+.iphone18-order { color: #171013; background: #f4cbb9; }
+.iphone18-order:hover { background: #ffe1d4; }
+.iphone18-order:focus-visible { outline: 3px solid #fff; outline-offset: 5px; }
+.iphone18-note { max-width: 350px; margin: 16px 0 0; font-size: .7rem; color: #c6b9ba; }
+.iphone18-art-label { position: absolute; right: 20px; bottom: 12px; margin: 0; font-size: .6rem; color: #c6b9ba; }
+@media(max-width:860px) { .iphone18-banner { min-height: 510px; } .iphone18-copy { max-width: 65%; padding: 36px; } .iphone18-copy h2 { font-size: 3rem; } }
+@media(max-width:600px) {
+  .iphone18-banner { margin-top: 16px; min-height: 740px; border-radius: 24px; }
+  .iphone18-copy { max-width: 100%; padding: 30px 24px; }
+  .iphone18-copy h2 { font-size: clamp(2.4rem,10.5vw,3.3rem); }
+  .iphone18-eyebrow { margin-bottom: 18px; }
+  .iphone18-description { max-width: 100%; font-size: .88rem; margin-bottom: 22px; }
+  .iphone18-order { width: 100%; font-size: .82rem; }
+  .iphone18-note { max-width: 100%; }
+  .iphone18-art { inset: auto 0 0 auto; width: 185%; max-width: none; height: 390px; object-fit: contain; object-position: right bottom; }
+  .iphone18-banner::after { background: linear-gradient(180deg,#0d0a0b 0%,#0d0a0b 44%,rgba(13,10,11,.1) 62%,transparent 100%); }
+  .iphone18-art-label { right: 16px; bottom: 10px; }
+}
+</style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -50,6 +79,18 @@
   </header>
 
   <main id="main">
+    <section class="iphone18-banner shell" aria-labelledby="iphone18-title">
+      <img class="iphone18-art" src="images/iphone18-campaign.webp" alt="Concept artwork of burgundy phones shown from the front, back and side" width="1536" height="1024" fetchpriority="high">
+      <div class="iphone18-copy">
+        <p class="iphone18-eyebrow">THE IPHONE 18 EDIT</p>
+        <h2 id="iphone18-title">iPhone 18.<br><span>Your next upgrade.</span></h2>
+        <p class="iphone18-description">Explore the iPhone 18 series with Nedu’s Gadgets. Tell us your preferred model, colour and storage.</p>
+        <a class="button iphone18-order" href="https://wa.me/2348137471522?text=Hello%20Nedu%27s%20Gadgets%2C%20I%27m%20interested%20in%20the%20iPhone%2018%20series.%20Please%20confirm%20available%20models%2C%20storage%2C%20colours%20and%20current%20prices." target="_blank" rel="noopener">Enquire on WhatsApp <span aria-hidden="true">↗</span></a>
+        <p class="iphone18-note">Confirm current prices and availability with our team.</p>
+      </div>
+      <p class="iphone18-art-label">Campaign concept artwork</p>
+    </section>
+
     <section class="hero shell" aria-labelledby="hero-title">
       <div class="hero-copy reveal">
         <p class="kicker"><span></span> Your trusted gadget plug in Lagos</p>
